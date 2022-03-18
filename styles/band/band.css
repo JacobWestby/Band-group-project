@@ -1,0 +1,29 @@
+.navbar {
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: rgb(188, 188, 64);
+}
+
+.nav-style {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #e7e6e1;
+  font-size: 18px;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #615c3d;
+}
