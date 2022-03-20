@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/band/band.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -18,7 +18,9 @@
     <title>Band</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header>
+      <!-- NAV -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="/index.html">Beatles</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +43,43 @@
           </ul>
         </div>
       </nav>
+      <!-- NAV ENDS -->
+
+      <!-- CAROUSEL -->
+      <div class="carousel__container">
+        <div class="header-text">
+          <h2>The Band</h2>
+          <a href="#">See memebers below</a>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/beatles-graffiti.jpg" class="d-block w-100" alt="Beatles themed graffiti on wall" />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/beatles-wall-art.jpg" class="d-block w-100" alt="Outline of the beatles on a wall" />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/beatles-statues.jpg" class="d-block w-100" alt="Statue of the beatles walking" />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- BOOTSTRAP -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
     ></script>
   </body>

@@ -31,3 +31,45 @@
 }
 
 /* NAV END */
+
+/* HEADER */
+.carousel-inner {
+  height: 80vh;
+  z-index: -2;
+}
+
+.carousel__container {
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.header-text {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 400px;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.header-text h2 {
+  color: #e7e6e1;
+  font-size: 5rem;
+}
+
+.header-text a {
+  text-decoration: none;
+  color: #e7e6e1;
+  font-size: 1.5rem;
+}
+
+.header-text a:hover {
+  color: #615c3d;
+}
