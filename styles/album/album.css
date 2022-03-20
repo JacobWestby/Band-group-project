@@ -36,7 +36,7 @@
 }
 
 img {
-    max-height: 1100px;
+    max-height: 900px;
     max-width: 1440px;
     height: auto;
     width: auto;
@@ -64,10 +64,11 @@ img {
     max-height: 400px;
     width: auto;
     height: auto;
+    border-radius: 50%;
 }
 
 .content__info {
-   max-width: 600px;
+   max-width: 700px;
    width: 100%;
 }
 
@@ -78,4 +79,5 @@ img {
 ul {
     list-style: none;
     font-weight: bold;
+    display: inline-block;
 }
