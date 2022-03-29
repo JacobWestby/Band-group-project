@@ -45,11 +45,12 @@ img {
 .content {
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
+    max-width: 1600px;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .content__cover {
@@ -72,12 +73,28 @@ img {
    width: 100%;
 }
 
-.songs {
-    margin-top: 25px;
+#beatles {
+    color: rgb(188, 188, 64);
+    font-weight: bold;
 }
 
-ul {
-    list-style: none;
-    font-weight: bold;
-    display: inline-block;
+.songs {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button {
+    border-style: none;
+    background-color: white;
+    color: rgb(188, 188, 64);
+    padding: 15px;
+}
+
+.button:hover {
+    border-bottom: 2px solid rgb(188, 188, 64);
+}
+
+.lyrics {
+    padding: 1em;
+    max-width: 50ch;
 }
