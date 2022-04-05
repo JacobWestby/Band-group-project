@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/band/ringo.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -12,9 +12,93 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Paul McCartney</title>
   </head>
   <body>
+    <!-- HEADER -->
+    <div class="go__back">
+      <a href="/pages/band/band.html"><img src="/images/back-arrow.svg" alt="Back arrow" />Go Back</a>
+    </div>
+
+    <header>
+      <img src="/images/ringo.jpg" alt="Ringo Starr" />
+      <div class="text">
+        <h1>Ringo Starr</h1>
+        <p>- cool quote</p>
+      </div>
+      <nav>
+        <li><a href="/pages/band/sub-pages/john.html">John Lennon</a></li>
+        <li><a href="/pages/band/sub-pages/paul.html">Paul McCartney</a></li>
+        <li><a href="/pages/band/sub-pages/ringo.html" class="active">Ringo Starr</a></li>
+        <li><a href="/pages/band/sub-pages/george.html">George Harrison</a></li>
+      </nav>
+    </header>
+
+    <!-- SPERATION LINE -->
+    <div class="separation__line"></div>
+
+    <!-- MAIN -->
+    <main>
+      <div class="summary">
+        <h3>Summary</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro id minima deleniti maiores doloribus dignissimos similique, officia inventore earum harum tenetur eius iusto repellat
+          quibusdam, voluptatem pariatur in cupiditate!
+        </p>
+      </div>
+
+      <div class="early__life">
+        <h3>Early Life</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque hic eius mollitia quae impedit, deleniti non ex sequi alias obcaecati quod unde dicta ipsum fugit similique labore
+          velit ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cumque eos enim doloremque praesentium earum? Perferendis veniam ipsam nemo iste necessitatibus. Ullam perspiciatis, non
+          earum eos placeat iure quibusdam corrupti.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, cumque. Eveniet vero, inventore eligendi, vel adipisci, fuga iusto natus impedit accusamus magnam quae. A voluptatem tempora
+          voluptas dolore, ab aut?
+        </p>
+      </div>
+
+      <div class="band">
+        <h3>Time in the Beatles</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero magni magnam ducimus ullam tempora ipsum. Optio natus obcaecati sed animi repudiandae at architecto, numquam ullam, repellat
+          modi fugiat tempora nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero earum beatae maxime minus error, expedita reprehenderit sit quos doloribus ex, impedit voluptas,
+          necessitatibus accusamus quod. Labore earum cupiditate in voluptas.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laborum, excepturi temporibus dolorum aliquam hic labore laudantium optio ex corporis quaerat blanditiis. Inventore ratione
+          ullam necessitatibus temporibus voluptatibus consectetur architecto?
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer__cont">
+        <a href="#" class="footer-logo">Beatles</a>
+        <p class="copy">Copyright 2020</p>
+        <div class="footer__cont-links">
+          <div class="footer__cont-links-list links1">
+            <a href="#">Album</a>
+            <a href="#">The band</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer__cont-links-list links2">
+            <a href="#">News</a>
+            <a href="#">Legal</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
