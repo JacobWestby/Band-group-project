@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/band/band.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -12,13 +12,144 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Band</title>
   </head>
   <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/index.html">Beatles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-style" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/album/album.html">Album</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/band/band.html">The band</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contact-us/contact-us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/news/news.html">News</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAV ENDS -->
+
+      <!-- CAROUSEL -->
+      <div class="carousel__container">
+        <div class="header-text">
+          <h2>The Band</h2>
+          <a href="#scroll">See memebers below</a>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/beatles-graffiti.jpg" class="d-block w-100" alt="Beatles themed graffiti on wall" />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/beatles-wall-art.jpg" class="d-block w-100" alt="Outline of the beatles on a wall" />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/beatles-statues.jpg" class="d-block w-100" alt="Statue of the beatles walking" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- CARDS  -->
+      <div id="scroll" class="cards__">
+        <div class="cards__card card-1">
+          <div class="top-box"></div>
+          <h4>John Lennon</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero voluptatibus atque, dolorum asperiores quasi illo eligendi similique hic dolore, velit ab ratione itaque
+            reiciendis autem consectetur assumenda ea odit!
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="cards__card card-2">
+          <div class="top-box"></div>
+
+          <h4>Paul McCartney</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt ab ipsa odio voluptates accusantium officia, temporibus, pariatur maxime porro libero at nesciunt sint harum
+            accusamus, natus magni in nisi.
+          </p>
+          <a href="/pages/band/sub-pages/paul.html" class="read-more">Read more</a>
+        </div>
+        <div class="cards__card card-3">
+          <div class="top-box"></div>
+
+          <h4>Ringo Starr</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolores molestias, beatae, assumenda voluptatem deserunt ad quod dolor amet ab expedita veniam similique. Laborum explicabo
+            qui obcaecati, dolorem perspiciatis dolorum.
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="cards__card card-4">
+          <div class="top-box"></div>
+
+          <h4>George Harrison</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nisi quas doloribus ipsa voluptas impedit nulla excepturi nesciunt odit cupiditate, eius sequi consequatur totam qui
+            deserunt temporibus. Provident, voluptatum delectus.
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer__cont">
+        <a href="#" class="footer-logo">Beatles</a>
+        <p class="copy">Copyright 2020</p>
+        <div class="footer__cont-links">
+          <div class="footer__cont-links-list links1">
+            <a href="#">Album</a>
+            <a href="#">The band</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer__cont-links-list links2">
+            <a href="#">News</a>
+            <a href="#">Legal</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- BOOTSTRAP -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
     ></script>
   </body>
